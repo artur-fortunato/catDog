@@ -9,11 +9,11 @@ import UIKit
 import CoreML
 import Vision
 
-public protocol ImageAnalyzerService {
-    func analyzeImage(image: UIImage, navigationController: UINavigationController, failure: @escaping (_ error: String) -> Void)
-}
+//public protocol ImageAnalyzerService {
+//    func analyzeImage(image: UIImage, navigationController: UINavigationController, failure: @escaping (_ error: String) -> Void)
+//}
 
-public class ImageAnalyzer: ImageAnalyzerService {
+public class ImageAnalyzer {
     
     public func analyzeImage(image: UIImage, navigationController: UINavigationController, failure: @escaping (_ error: String) -> Void) {
         
