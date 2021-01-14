@@ -5,6 +5,7 @@
 //  Created by Marcio Fetter on 10/01/21.
 //
 
+import UIKit
 import CoreML
 import Vision
 
@@ -14,6 +15,8 @@ public protocol ImageAnalyzerService {
 
 public class ImageAnalyzer: ImageAnalyzerService {
     
+    
+    public var analizer: ImageAnalyzerService = ImageAnalyzer()
     
     public func analyzeImage(image: UIImage, navigationController: UINavigationController, failure: @escaping (_ error: String) -> Void) {
         
