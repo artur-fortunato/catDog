@@ -1,0 +1,6 @@
+framework module Pods_catDog_Example {
+  umbrella header "Pods-catDog_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module catDog {
+  umbrella header "catDog-umbrella.h"
+
+  export *
+  module * { export * }
+}

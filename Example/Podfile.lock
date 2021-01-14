@@ -1,0 +1,16 @@
+PODS:
+  - catDog (1.0.1)
+
+DEPENDENCIES:
+  - catDog (from `../`)
+
+EXTERNAL SOURCES:
+  catDog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  catDog: 00361c33d9a4db324b247ed213e9821cdb1c5816
+
+PODFILE CHECKSUM: 491ee01c9a58f107f5a3164a1a9353bc17789bf4
+
+COCOAPODS: 1.10.1

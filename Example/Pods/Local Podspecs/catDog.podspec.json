@@ -1,0 +1,22 @@
+{
+  "name": "catDog",
+  "version": "1.0.1",
+  "summary": "A short description of catDog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/artur.rf@hotmail.com/catDog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "artur.rf@hotmail.com": "Artur"
+  },
+  "source": {
+    "git": "https://github.com/artur.rf@hotmail.com/catDog.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "catDog/Classes/**/*"
+}
