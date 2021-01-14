@@ -17,7 +17,7 @@ public class AnalysisResultViewController: UIViewController {
     public var results: [VNClassificationObservation]
     public var imageToLoad: UIImage
     
-    init(image: UIImage, results: [VNClassificationObservation]) {
+    public init(image: UIImage, results: [VNClassificationObservation]) {
         self.imageToLoad = image
         self.results = results
         super.init(nibName: "AnalysisResultViewController", bundle: nil)
