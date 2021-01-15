@@ -39,7 +39,7 @@ public class AnalysisResultViewController: UIViewController {
         uiResultImageView.image = imageToLoad
         if let firstResult = results.first {
             uiResulLabel.text = firstResult.identifier
-            uiConfidenceLabel.text = "\(Int(firstResult.confidence * 100))% de confiança"
+            uiConfidenceLabel.text = "\(Int(firstResult.confidence * 100))% de certeza"
         } else {
             navigationController?.popToRootViewController(animated: true)
         }
