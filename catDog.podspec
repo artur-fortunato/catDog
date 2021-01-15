@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '14.0'
 
   s.source_files = 'catDog/Classes/**/*'
-  resources = 'catDog/Assets/**/*'
+  s.resources = 'catDog/Assets/**/*'
   
   # s.resource_bundles = {
   #   'catDog' => ['catDog/Assets/*.png']
