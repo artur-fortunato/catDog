@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'catDog'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = 'A short description of catDog.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '14.0'
 
   s.source_files = 'catDog/Classes/**/*'
-  s.resources = 'catDog/Assets/**/*'
+#  s.resources = 'catDog/Assets/**/*'
   
   # s.resource_bundles = {
   #   'catDog' => ['catDog/Assets/*.png']
